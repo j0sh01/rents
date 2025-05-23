@@ -6,7 +6,9 @@
  "engine": "InnoDB",
  "field_order": [
   "property",
+  "property_name",
   "tenant",
+  "tenant_name",
   "status",
   "frequency",
   "column_break_kfii",
@@ -79,12 +81,24 @@
    "fieldname": "total_rent_tzs",
    "fieldtype": "Currency",
    "label": "Total Rent TZS"
+  },
+  {
+   "fetch_from": "property.title",
+   "fieldname": "property_name",
+   "fieldtype": "Data",
+   "label": "Property Name"
+  },
+  {
+   "fetch_from": "tenant.full_name",
+   "fieldname": "tenant_name",
+   "fieldtype": "Data",
+   "label": "Tenant Name"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-25 13:25:42.173489",
+ "modified": "2025-05-23 13:45:28.614910",
  "modified_by": "Administrator",
  "module": "Rental Management System",
  "name": "Rental",
