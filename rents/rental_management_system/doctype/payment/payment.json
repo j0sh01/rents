@@ -6,12 +6,15 @@
  "engine": "InnoDB",
  "field_order": [
   "rental",
-  "amount_tzs",
   "payment_date",
   "tenant",
   "column_break_jtuh",
   "payment_method",
-  "receipt_number",
+  "amount_tzs",
+  "section_break_dhvz",
+  "start_date",
+  "column_break_ncwq",
+  "end_date",
   "section_break_ufhc",
   "amended_from"
  ],
@@ -57,21 +60,36 @@
    "options": "Cash\nBank Transfer\nMobile Money"
   },
   {
-   "fieldname": "receipt_number",
-   "fieldtype": "Data",
-   "label": "Receipt Number"
-  },
-  {
    "fetch_from": "rental.tenant",
    "fieldname": "tenant",
    "fieldtype": "Data",
    "label": "Tenant"
+  },
+  {
+   "fieldname": "section_break_dhvz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "rental.start_date",
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "column_break_ncwq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "rental.end_date",
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-06 22:01:43.874975",
+ "modified": "2025-06-17 14:39:29.781558",
  "modified_by": "Administrator",
  "module": "Rental Management System",
  "name": "Payment",

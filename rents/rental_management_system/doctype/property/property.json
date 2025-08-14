@@ -14,7 +14,15 @@
   "column_break_wnod",
   "description",
   "square_meters",
-  "image"
+  "image",
+  "section_break_jkxt",
+  "image_1",
+  "column_break_btrb",
+  "image_2",
+  "column_break_reoh",
+  "image_3",
+  "column_break_puok",
+  "image_4"
  ],
  "fields": [
   {
@@ -66,12 +74,49 @@
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "label": "Image"
+  },
+  {
+   "fieldname": "section_break_jkxt",
+   "fieldtype": "Section Break",
+   "label": "Additional Images"
+  },
+  {
+   "fieldname": "image_1",
+   "fieldtype": "Attach Image",
+   "label": "Image 1"
+  },
+  {
+   "fieldname": "column_break_btrb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_2",
+   "fieldtype": "Attach Image",
+   "label": "Image 2"
+  },
+  {
+   "fieldname": "column_break_reoh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_3",
+   "fieldtype": "Attach Image",
+   "label": "Image 3"
+  },
+  {
+   "fieldname": "column_break_puok",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_4",
+   "fieldtype": "Attach Image",
+   "label": "Image 4"
   }
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-25 10:44:21.379069",
+ "modified": "2025-06-17 13:00:37.992349",
  "modified_by": "Administrator",
  "module": "Rental Management System",
  "name": "Property",

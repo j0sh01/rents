@@ -50,7 +50,7 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "Active\nExpired\nTerminated"
+   "options": "Active\nExpired\nTerminated\nNot Paid"
   },
   {
    "fieldname": "column_break_kfii",
@@ -98,7 +98,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-05-23 13:45:28.614910",
+ "modified": "2025-06-18 11:54:37.890488",
  "modified_by": "Administrator",
  "module": "Rental Management System",
  "name": "Rental",
